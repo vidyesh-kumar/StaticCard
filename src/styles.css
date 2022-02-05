@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #23252C;
+}
+#root{
+    display:block;
+    width: 542px;
+    height: 868px;
+    margin: 0 auto;
+    padding: 44px 0px;
+}
+.info{
+    background: #1A1B21;
+    width: 317px;
+    height: 399px;
+    margin: 0 auto;
+    padding: 16px 0px 0px 0px;
+}
+.div-title{
+    font-family: Inter;
+    color: #F5F5F5;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    width: 242.71px;
+    height: 21px;
+    margin: 27px 37px 5px 37px;
+}
+.div-para{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    width: 247px;
+    height: 61px;
+    color: #DCDCDC;
+    margin:0 35px;
+    
+}
+
+.nav-profile-pic{
+    display:block;
+    width:317px;
+    height:317px;
+    border-radius: 10px 10px 0px 0px;
+    margin:0 auto;
+}
+.container{
+    margin:0 auto;
+    padding: 0px 0px 0px 48px;
+    width: 317px;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+.nav-email{
+    margin:0px 45px 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+}
+.nav-role{
+    margin:0px 69px 9px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+}
+.nav-name{
+margin:15px 61px 11px 61px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+}
+.email{
+    margin:0px 17px 0 35px;
+    background: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+form{
+    display:inline;
+}
+.linkedin{
+    margin:0px 2px;
+    background: #5093E2; 
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.button{
+    padding:0px 15px 0px 0px ;
+    width: 115px;
+    height: 34px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;   
+}
+.icon{
+    width: 16px;
+    height: 16px;
+    margin:0px 8px;
+    
+}
+.email>.icon{
+    color:black;
+}
+.linkedin>.icon{
+    color:white;
+}
+.icons{
+    display:inline-block;
+    color:#918E9B;
+    margin:15px 12px;
+    
+}
